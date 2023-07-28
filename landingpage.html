@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            landing page </title>
+            <style type="text/css">
+                *{padding: 0; margin:0; box-sizing: border-box;}
+                header{
+                    width:100%;
+                    height:100vh;
+                    background:linear-gradient(rgba(125, 23, 23, 0.8),rgba(0,0,0,0,2)),  url('D:\download.jpg');
+                    background-size: cover;
+                }
+                    nav{
+                    width: 100%;
+                    height: 100px;
+                    background:rgb(188, 26, 11);
+                    color: black;
+                    display:flex ;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .logo{
+                    color: aquamarine;
+                    font-size: 2em;
+                    Letter-spacing: 2px;
+                }
+                .menu a{
+                    text-decoration: 2em;
+                    color: aliceblue;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    position: relative;
+                }
+                .menu a:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0%;
+                    height: 100%;
+                    border-bottom: 3px solid indianred;
+                    transition: 0.4s linear;
+                }
+                .menu a:hover:before{
+                    width:90%;
+                }
+                .Register a{
+                    text-decoration: 2em;
+                    color: #f0f8ff;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    background: indianred;
+                    border-radius: 8px;
+                    transition: 0.4;
+                }
+                .Register a:hover{
+                    background: rgb(68, 126, 14);
+                    border: 1px solid indianred;
+                }
+                .h-txt{
+                    color: brown;
+                    max-width: 650px;
+                    position: absolute;
+                    top: 50%;
+                    Left: 50%;
+                    transform:translate(-50%,-50%);
+                    text-align: center;
+                }
+                .h-txt  a{
+                    text-decoration: none;
+                    background-color: indianred;
+                    color: #f0f8ff;
+                    padding: 10px 20px;
+                    letter-spacing: 5px;
+                    transition: 0.7;
+                }
+                .h-txt a:hover{
+                    background: rgb(68, 126, 14);
+                    border: 1px solid indianred;
+                }
+                .h-txt span{
+                    letter-spacing: 5px;
+                }
+                .h-txt h1{
+                    font-size: 3.5em;
+                }
+                
+            
+            </style>
+    </head>
+    <body>
+        <header>
+<nav>
+    <div class="logo">
+        EducationMaster
+    </div>
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Admission</a>
+        <a href="#">Courses</a>
+        <a href="#">Events</a>
+        <a href="#">Pages</a>
+        <a href="#">Student</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="Sign up">
+        <a href="#">Sign up</a></div>
+        <a href="#">Sign in</a></div>
+</nav>
+<section class="h-txt">
+    <h1>WELCOME TO SCHOOL</span></h1>
+    <p>
+        There are many variations of passages of lorem losum available 
+        but the majority have suffered alteration in some form 
+    </p><br>
+    <a href="#">Courses</a>
+    <a href="#">Learn more</a>
+</section>
+        </header>
+        </body>
+        </html>
